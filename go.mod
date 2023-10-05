@@ -2,7 +2,10 @@ module ecommerce
 
 go 1.21.1
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	go.mongodb.org/mongo-driver v1.12.1
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
